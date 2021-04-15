@@ -1,8 +1,9 @@
 # vuepress-plugin-chunkload-redirect
 
-␥ Catch chunkload errors from a stale deploy and route to destination.
 
-Clientside apps remain in the browser memory and if a new build is deployed sometimes the JS chunks will change, resulting in errors routing to a desired destination. This plugin will detect when a page chunk is no longer available by catching the error and redirecting to the latest version of the application transparently.
+Clientside apps remain in the browser memory after initial load which is great for performance but if a new build is deployed the JS page chunks _could_ change, resulting in errors when routing to a desired destination.
+
+This plugin fixes that by transparently redirecting to the latest version of the application when a chunk is invalid so you get the best of serverside and clientside routing.
 
 Compatible with Vuepress 1.x
 

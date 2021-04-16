@@ -20,7 +20,7 @@ Add to `config.js` or `theme/index.js`
 ```
 module.exports = {
   plugins: [
-    ['vuepress-plugin-chunkload-redirect'],
+    'vuepress-plugin-chunkload-redirect',
   ]
 }
 ```

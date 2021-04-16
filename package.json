@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-chunkload-redirect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Catch chunkload errors from a stale deploy and route to destination",
   "main": "index.js",
   "scripts": {
